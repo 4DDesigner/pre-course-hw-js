@@ -9,5 +9,6 @@ switch(true) {
         break;
     case rule.length > 25:
         console.log("У меня 100 пудов все получится");
-        break;    
+        break; 
+        default: break;    
 } 
