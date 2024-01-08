@@ -1,5 +1,4 @@
 let iAm = 'я';
-iAm = 'Я';
 let krasavchik = "красавчик!";
 
-console.log(iAm + ' ' + krasavchik);
+console.log(iAm.toUpperCase() + ' ' + krasavchik);
