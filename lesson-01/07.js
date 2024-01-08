@@ -1,4 +1,5 @@
-let iAm = 'я'
+let iAm = 'я';
+iAm = 'Я';
 let krasavchik = "красавчик!";
-let newIAM = iAm.replace(/я/g, 'Я');
-console.log(newIAM + ' ' + krasavchik);
+
+console.log(iAm + ' ' + krasavchik);
