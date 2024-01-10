@@ -3,10 +3,10 @@ let passportWithAddress = {
     surname: "Petrov",
     address: {
         country: "USA",
-        city: "LA"
+        city: "Bobryisk"
     }
 };
 console.log(passportWithAddress.address.city);
 let copyPassportWithAddress = JSON.parse(JSON.stringify(passportWithAddress));
-copyPassportWithAddress.address.city = 'Bobryisk';
+copyPassportWithAddress.address.city = 'LA';
 console.log(copyPassportWithAddress.address.city);
