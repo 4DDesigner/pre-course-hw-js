@@ -18,13 +18,14 @@ const users2 = [
         address: '789 Oak St'
     },
 ];
-    
+
 const newObj = {
     id: 4,
     user: 'Ivan',
     surName: 'Susanin',
     address: 'Unknown'
-}
+};
 
 const newArray = users2.push(newObj);
+
 console.log(users2);

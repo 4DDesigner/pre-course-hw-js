@@ -60,7 +60,9 @@ const users = [
         address: '753 Cherry St'
     }
 ];
-const newArray = users.filter((item) => {
-    if (item.id % 2 == 0) return item;
-})
-console.log(newArray);
+
+function newArray(item) {
+    return item.id % 2 == 0  
+}
+
+console.log(users.filter(newArray));
