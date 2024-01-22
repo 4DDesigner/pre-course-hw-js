@@ -26,6 +26,6 @@ const newObj = {
     address: 'Unknown'
 };
 
-const newArray = users2.push(newObj);
+const newUser = users2.push(newObj);
 
 console.log(users2);
