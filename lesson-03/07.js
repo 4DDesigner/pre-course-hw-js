@@ -9,4 +9,4 @@ for(let i = 0; i < numbers.length; i++) {
         return n % 2 === 0
     })
 }
-console.log(numbers);
+console.log(numbers); 
